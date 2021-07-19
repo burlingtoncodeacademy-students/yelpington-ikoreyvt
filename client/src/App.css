@@ -1,38 +1,93 @@
-.App {
+/* provide full page size container for background color */
+#pageContainer {
+  height: 100vh;
+  background-color: #ef4f4f;
+  padding-top: 1rem;
+}
+/* stylizing persistent title */
+#pageTitle {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   text-align: center;
+  background-color: #bb4c4c;
+  border-radius: 1rem;
+  width: 50rem;
+}
+/* removing unwanted text styles on links */
+a {
+  color: #ffcda3;
+  text-decoration: none;
+}
+a:visited {
+  color: #ffcda3;
+  text-decoration: none;
+}
+/* provide hover effect on link to show it's being selected */
+h1 a:hover {
+  color: #f09e5c;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* all restaurants page display */
+/* making the page flex to display both elements side my side */
+#allContainer {
+  display: flex;
+  justify-content: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* setting width a flex/flex direction for a nice list of restaurants */
+#restaurants {
+  width: 25rem;
+  border: 4px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+}
+/* changing list items to nicely fit in provided container */
+.restaurantListItem {
+  background-color: #fa6767;
+  text-align: center;
+  width: 25rem;
+  height: 3rem;
+  padding-top: 0.45rem;
+  padding-bottom: 0.5rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+/* changing default margins on p tags inside the class restaurantListItem */
+.restaurantListItem p {
+  margin-top: 0.65rem;
+  margin-bottom: 0;
+}
+/* provide hover effect for list items to show selected */
+.restaurantListItem:hover {
+  color: black;
+  background-color: #e67f7f;
+}
+/* change color and size on link text inside id restaurants */
+#restaurants a {
+  color: black;
+  font-size: 1.2em;
 }
 
-.App-link {
-  color: #61dafb;
+/* single restaurant info display set to flex for nice display of items and move away from map a bit */
+#restInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 2rem;
+  background-color: #55a395;
+  border-radius: 5rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* force content size and position */
+#mainInfo {
+  text-align: center;
+  width: 22rem;
+}
+/* force note size and position in center of container */
+#notes {
+  width: 20rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }

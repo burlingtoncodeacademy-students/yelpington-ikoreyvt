@@ -1,0 +1,10 @@
+{
+  "id": "the-meltdown",
+  "name": "The Meltdown",
+  "address": "83 Washington St.",
+  "phoneNumber": "(802) 622-8277",
+  "hours": "1130 - 2100",
+  "lat": 44.194890,
+  "long": -72.497740,
+  "notes": ["Their fuji apple, fig jam, and brie cheese sandwich is a slapper.", "Closed on Tuesdays and Wednesdays."]
+}

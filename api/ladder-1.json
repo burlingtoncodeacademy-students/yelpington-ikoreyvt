@@ -1,0 +1,10 @@
+{
+  "id": "ladder-1",
+  "name": "Ladder 1 Grill",
+  "address": "8 S Main St.",
+  "phoneNumber": "(802) 883-2000",
+  "hours": "1100 - 2100",
+  "lat": 44.196104,
+  "long": -72.500807,
+  "notes": ["For sure one of the more expensive places in Barre.", "Can substitute chicken on their philly cheesesteak if you so please, which I do."]
+}

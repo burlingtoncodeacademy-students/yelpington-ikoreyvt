@@ -1,0 +1,10 @@
+{
+  "id": "mulligans",
+  "name": "Mulligan's Irish Pub",
+  "address": "9 Maple Ave",
+  "phoneNumber": "(802) 479-5545",
+  "hours": "1100 - 2300",
+  "lat": 44.202788,
+  "long": -72.506730,
+  "notes": ["One of the only restaurants in Barre not on Main St, though it is about 20 feet from it.", "Sunday nights are half-price burger nights."]
+}
