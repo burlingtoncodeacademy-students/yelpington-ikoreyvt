@@ -1,0 +1,10 @@
+{
+  "id": "basils-pizzeria",
+  "name": "Basil's Pizzeria & Restaurant",
+  "address": "20 S Main St.",
+  "phoneNumber": "(802) 477-5033",
+  "hours": "1100 - 2100",
+  "lat": 44.195341,
+  "long": -72.500560,
+  "notes": ["Buffalo chicken quesadilla is by far the best menu item and it's only an appetizer.", "Definitely not the worst pizza around but definitely not somewhere I go for pizza."]
+}

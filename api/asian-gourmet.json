@@ -1,0 +1,10 @@
+{
+  "id": "asian-gourmet",
+  "name": "Asian Gourmet",
+  "address": "276 N Main St.",
+  "phoneNumber": "(802) 477-7828",
+  "hours": "1100 - 2000",
+  "lat": 44.199760,
+  "long": -72.504710,
+  "notes": ["Best sushi and chinese food in Barre.", "Unfortunately their pad thai is kind of garbage not going to lie."]
+}

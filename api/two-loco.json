@@ -1,0 +1,10 @@
+{
+  "id": "two-loco",
+  "name": "Two Loco Guys",
+  "address": "136 N Main St.",
+  "phoneNumber": "(802) 622-0469",
+  "hours": "1100 - 2000",
+  "lat": 44.198268,
+  "long": -72.502714,
+  "notes": ["The best, if not the only, place in Barre to get a burrito.", "You won't convince me to go to The Mad Taco if I'm in Barre."]
+}
